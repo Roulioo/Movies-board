@@ -1,0 +1,135 @@
+/* Htlm page */
+html {
+    background-color: black;
+    color: white;
+}
+
+/* Btn update and delete */
+.btn-movie-update,
+.btn-movie-delete {
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+/* Movie container */
+.movie {
+    width: 360px;
+    padding: 8px;
+    margin: 15px;
+}
+
+/* Movie description */
+.movie-description {
+    border: 1px dashed white;
+    height: 150px;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+/* Movie title */
+.movie-title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Movie release date */
+.movie-release-date {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Movie categories */
+.movie-categories {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Categories and release-date */
+.categories-detail,
+.release-date-detail {
+    margin: 20px 0;
+}
+
+/* Backdrop in detail page */
+.backdrop-detail {
+    height: 200px;
+}
+
+/* Buttons in page detail */
+.buttons-detail {
+    padding: 20px 0;
+}
+
+.buttons-detail button:nth-child(1),
+.buttons-detail button:nth-child(2) {
+    margin-right: 15px;
+}
+
+/* All buttons */
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 25px !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
+}
+
+/* All images that redirect to another page */
+.img-redirect {
+    cursor: pointer;
+}
+
+/* Btn to go home in adding page */
+.btn-home-adding {
+    margin-left: 45px;
+}
+
+/* Description of a movie in adding page */
+.movie-description-adding {
+    margin: 0 50px;
+}
+
+.movie-description-adding span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Actors in adding page */
+.actors-adding {
+    margin: 35px !important;
+}
+
+/* Cross of deletion similar movies and actor */
+.cross-deletion {
+    margin-top: 14px;
+}
+
+/* Similar films in adding page */
+.similar-movies-adding {
+    margin: 20px;
+}
+
+.all-movies-adding {
+    margin: 0 20px !important;
+}
+
+/* Actors, similar-films in edit and detail page */
+.actor-edit,
+.similar-edit,
+.actor-detail,
+.similar-detail,
+.actors-adding {
+    margin: 20px;
+}
+
+/* Movie description in edit page */
+.movie-description-edit {
+    font-weight: bold;
+    font-style: italic;
+}

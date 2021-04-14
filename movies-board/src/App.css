@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-style: italic;
+}
+
+body {
+  background-color: black;
+  font-style: italic;
+  color: white;
+}
+
+.btn-home-add {
+  border: none;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
