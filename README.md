@@ -2,6 +2,14 @@
 
 Web application about a movies library.
 
+# Technologies
+
+- ReactJS
+- JSX
+- HTML
+- CSS
+- Node.Js
+
 # How to test
 
 1. Go to current folder of project in terminal
